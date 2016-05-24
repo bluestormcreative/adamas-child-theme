@@ -38,25 +38,6 @@ Colors:
 
 /* ===== Header / Nav =========================== */
 
-.header-type-1 .site-branding, .header-type-3 .site-branding {
-  margin:20px 0;
-}
-
-.header-type-1 .site-navigation {
-  margin-top:30px;
-}
-
-.site-header:not(.is-shrunk) .site-logo-image:not(.mobile-logo) {
-    max-height:80px;
-}
-
-.site-header .site-logo img {
-  transition:all .3s ease;
-}
-
-.site-header.is-shrunk .site-logo img {
-  max-height:70px;
-}
 
 /* ===== Home =========================== */
 
