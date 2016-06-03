@@ -32,7 +32,9 @@ $page_col = apply_filters( 'adamas_page_col', array(
             <?php
                 // Start the Loop
                 while ( have_posts() ) : the_post(); ?>
+
                 <h2 class="page-title"><?php the_title(); ?></h2>
+                
                 <?php
                     // Content
                     the_content();
