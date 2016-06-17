@@ -92,3 +92,18 @@ function adamas_vc_remove_element() {
 	}
 
 }
+
+
+// remove some post types we don't need
+// NOTE: comment out lines to leave post types available (i.e. sliders and portfolio)
+add_action( 'after_setup_theme','bsc_remove_types', 100 );
+
+function bsc_remove_types() {
+
+    remove_action( 'init', 'adamas_testimonials_post_type', 4 );
+		remove_action( 'init', 'adamas_clients_post_type', 4 );
+		remove_action( 'init', 'adamas_team_post_type', 4 );
+		//remove_action( 'init', 'adamas_sliders_post_type', 4 );
+		//remove_action( 'init', 'adamas_portfolio_post_type', 4 );
+
+}
