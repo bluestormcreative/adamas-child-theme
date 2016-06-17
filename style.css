@@ -46,8 +46,37 @@ Colors:
 
 /* ===== Typography =========================== */
 
+.site-main a:not(.button) {
+  text-decoration: underline;
+}
+
+/* default list styles */
+ol, ul {
+  margin-bottom:20px;
+}
+
+.site-main ul,
+.site-main ol {
+  margin-left:2em;
+}
+
+.site-main ul li {
+  list-style: disc;
+}
+
+.site-main ol li {
+  list-style: decimal;
+}
+
 
 /* ===== Header / Nav =========================== */
+
+/* push masthead down when logged in */
+.admin-bar .site-header-inner {
+  margin-top:32px;
+}
+
+
 
 
 /* ===== Home =========================== */
@@ -60,6 +89,12 @@ Colors:
 
 
 /* ===== Optins & Forms =========================== */
+
+
+/* ===== Buttons =========================== */
+
+
+/* ===== Social Media Icons =========================== */
 
 
 /* ===== Sidebars & Widgets =========================== */
