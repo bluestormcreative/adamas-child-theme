@@ -46,7 +46,7 @@ Colors:
 
 /* ===== Typography =========================== */
 
-.site-main a:not(.button) {
+.site-main a:not(.button):not(.read-more) {
   text-decoration: underline;
 }
 
