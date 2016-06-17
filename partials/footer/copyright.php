@@ -57,7 +57,7 @@ $copyright_widget_area_class = array(
                 </div><!-- .widget-area -->
             <?php endif; ?>
 
-            Copyright &copy; <?php echo date('Y'); ?> <?php echo bloginfo('name'); ?> | <a href="http://insightfuldevelopment.com" target="blank">Website Development</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-of-use/">Terms of Use</a>
+            <div class="site-info">Copyright &copy; <?php echo date('Y'); ?> <?php echo bloginfo('name'); ?> | <a href="http://insightfuldevelopment.com" target="blank">Website Development</a> | <a href="/privacy-policy/">Privacy Policy</a> | <a href="/terms-of-use/">Terms of Use</a></div>
 
 
         </div><!-- .row -->
