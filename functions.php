@@ -40,9 +40,9 @@ function adamas_vc_remove_element() {
 	// vc_remove_element( 'vc_wp_archives' );
 	// vc_remove_element( 'vc_wp_rss' );
 	// vc_remove_element( 'vc_gmaps' );
-	// //vc_remove_element( 'vc_single_image' );
+	// vc_remove_element( 'vc_single_image' );
 	// vc_remove_element( 'vc_posts_slider' );
-	// //vc_remove_element( 'vc_posts_grid' );
+	// vc_remove_element( 'vc_posts_grid' );
 	// vc_remove_element( 'vc_carousel' );
 	// vc_remove_element( 'vc_cta_button' );
 	// vc_remove_element( 'vc_cta_button2' );
@@ -55,11 +55,11 @@ function adamas_vc_remove_element() {
 	// vc_remove_element( 'vc_separator' );
 	// vc_remove_element( 'vc_btn' );
 	// vc_remove_element( 'vc_cta' );
-	// //vc_remove_element( 'vc_teaser_grid' );
+	// vc_remove_element( 'vc_teaser_grid' );
 	// vc_remove_element( 'vc_custom_heading' );
-  // //vc_remove_element( 'vc_media_grid' );
-	// //vc_remove_element( 'vc_masonry_grid' );
-	// //vc_remove_element( 'vc_masonry_media_grid' );
+  // vc_remove_element( 'vc_media_grid' );
+	// vc_remove_element( 'vc_masonry_grid' );
+	// vc_remove_element( 'vc_masonry_media_grid' );
 	// vc_remove_element( 'vc_icon' );
 	// vc_remove_element( 'vc_basic_grid' );
 	// vc_remove_element( 'vc_tour' );
@@ -106,4 +106,10 @@ function bsc_remove_types() {
 		//remove_action( 'init', 'adamas_sliders_post_type', 4 );
 		//remove_action( 'init', 'adamas_portfolio_post_type', 4 );
 
+}
+
+// remove Demo Import item from admin menu
+add_action( 'admin_menu', 'adamas_remove_import_page' );
+function adamas_remove_import_page() {
+    remove_menu_page('wpus_import_page');
 }
