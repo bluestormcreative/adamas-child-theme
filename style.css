@@ -154,4 +154,9 @@ ul#menu-social-media-icons-1 {
   background:#333;
 }
 
+.footer-copyright a:hover,
+.footer-copyright a:focus {
+  color:white;
+}
+
 /* ===== Media Queries =========================== */
