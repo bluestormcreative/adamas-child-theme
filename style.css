@@ -98,16 +98,16 @@ ol, ul {
 
 ul#menu-social-media-icons,
 ul#menu-social-media-icons-1 {
-  margin-left:0;
   list-style-type:none;
+  margin-left:0;
 }
 
 #menu-social-media-icons li,
 #menu-social-media-icons-1 li {
   display:inline-block;
-  width:30px;
   font-size:30px;
   margin-right:10px;
+  width:30px;
 }
 
 #menu-social-media-icons li a:hover i,
