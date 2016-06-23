@@ -113,3 +113,11 @@ add_action( 'admin_menu', 'adamas_remove_import_page' );
 function adamas_remove_import_page() {
     remove_menu_page('wpus_import_page');
 }
+
+
+
+// Set WordPress SEO metabox priority to low.
+function bsc_position_wpseo_metabox() {
+   return 'low';
+}
+add_filter( 'wpseo_metabox_prio', 'bsc_position_wpseo_metabox' );
